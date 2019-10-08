@@ -1,0 +1,987 @@
+
+
+/* -------------------- Страницы и бак имаге------------------------------*/
+
+.page1, .page5 {
+    background-image: url(img/silver-2143730_1920\ .png);
+    background-color: #222;
+}
+
+.page2, .page4, .page6 {
+    background-color: #FFFFFF;
+}
+
+.page3 {
+    background-color: #222222;
+}
+
+
+.top-selector {
+    background: repeat 0;
+    background-image: url(img/silver-top.png);
+    height: 231px;
+    background-size: cover;
+}
+
+.bottom-selector {
+    background-repeat: repeat 0;
+    background-image: url(img/silver-top.png);
+    background-size: cover;
+    height: 165px;
+    transform: rotate(180deg);
+}
+
+
+.img1 {
+    position: absolute;
+    right: 0;
+}
+
+.image2 {
+    position: absolute;
+    margin-top: 90px;
+}
+
+.img5 {
+    margin-top: 15px;
+}
+
+/* --------------------       Текст ------------------------------*/
+
+
+body {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.headline {
+    font-size: 48px;
+    line-height: 56px;
+}
+
+
+h1{
+    color: #E8505C;
+}
+
+h2 {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.selector-header {
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+}
+
+
+.sel-text {
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    color: #FFF9F9;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3 {
+    text-align: center;
+    color: #626060;
+}
+
+h4 {
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+}
+
+.span-red {
+    color: #E8505C;
+}
+
+.text-main {
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+
+.text-extractor {
+    margin-top: 56px;
+    text-align: center;
+}
+
+
+.btn-text {
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+
+
+.text-item {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+
+
+
+.icon-text{
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFF9F9;
+}
+
+
+
+.text-main-page3 {
+    font-size: 30px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.text-page4-red, .text-page4-black, .text-page5-wiath {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #E8505C;
+}
+
+.text-page4-black  {
+    font-weight: normal;
+    color: #000000;
+}
+
+.text-page5-orange {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: #F6C055;
+}
+
+.text-page5-wiath{
+    color: #FFFFFF;
+}
+
+
+.h3rad {
+    font-size: 40px;
+    color: #E8505C;
+}
+
+.h4black{
+    margin-top: 40px;
+    font-size: 30px;
+    color: #000000;
+}
+
+
+.page6-text-normal {
+    font-size: 24px;
+}
+
+
+.gray-p {
+    color: #a7a7a7;
+}
+
+
+.text-main-ext {
+    text-align: center;
+    font-size: 30px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+/*--------------------  Отступы       ----------------------*/
+
+.items {
+    margin-top: 0;
+}
+
+.name-of-site {
+    margin-top: 160px;
+}
+
+
+
+.border-text-page1 {
+    margin-top: 70px;
+    margin-left: -30px;
+    padding: 50px 0 50px 37px;
+    border-left: 10px solid #F6DA59;
+}
+
+
+.content-page3-top {
+    margin-top: 100px;
+}
+
+.content-page3-sel {
+    margin-top: 100px;
+}
+
+
+.icons-OS {
+    margin-top: 200px;
+}
+
+
+
+.text-page5-orange, .text-page5-wiath {
+    margin-top: 15px;
+}
+
+.text-bloc-page6 {
+    margin-bottom: 150px;
+    margin-top: 141px;
+}
+
+.page5-text {
+    padding-bottom: 100px;
+    margin-top: 50px;
+}
+
+
+.niz {
+    padding-top: 170px;
+    padding-bottom: 100px;
+}
+
+
+.DowloadJava {
+    margin-top: 90px;
+    
+}
+
+
+/*--------------------  Стрелочки       ----------------------*/
+
+
+.arroy-r {
+    margin-top: -50px;
+    border-top: 150px solid transparent;
+    border-bottom: 150px solid transparent;
+    border-left: 50px solid yellow;
+}
+
+.arroy-l {
+    margin-top: -50px;
+    border-top: 150px solid transparent;
+    border-bottom: 150px solid transparent;
+    border-right: 50px solid white;
+}
+
+
+.arroysm-t {
+    margin-top: 61px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8px;
+    width: 80px;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 16px solid transparent;
+    border-bottom-color: #F6DA59;
+}
+
+
+.arroysm-b {
+    margin-top: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80px;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-top: 16px solid transparent;
+    border-bottom: 0px;
+    border-top-color: #FFFFFF;
+}
+
+
+
+.red-arroy {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 24px solid transparent;
+    border-top: 0px;
+    border-bottom-color: #E8505C;
+    width: 60px;
+}
+
+
+.big-red-arroy {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    border-left: 120px solid transparent;
+    border-right: 120px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-top: 0px;
+    width: 70px;
+    border-bottom-color: #E8505C;
+}
+
+.smRedAr {
+    width: 0;
+    height: 0;
+    border: 40px solid transparent;
+    border-left-color: #E8505C;
+    border-right: 0;
+    display: inline-block;
+
+}
+
+
+/*---------------------- Кнопки ------------------------------ */
+
+
+.btn1 {
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 31px;
+    margin-left: auto;
+    margin-right: auto; 
+    background: #E8505C;
+    border: 1px solid #E8505C;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+    width: 307px;
+    height: 76px;
+}
+
+
+
+
+/*---------------------- Медиа ------------------------------ */
+
+
+
+@media (max-width: 450px) {
+    .img1, .image2, .img5 {
+        width: 0;
+    }
+
+    .border-text-page1 {
+        border: none;
+    }   
+    .arroy-l, .arroy-r {
+        display: none;
+    }
+
+    .bottom-selector {
+        display: none;
+    }
+
+    .top-selector {
+        display: none;
+    }
+
+
+    .sel-text, .arroysm-b, .arroysm-t {
+        display: none;
+    }
+
+    .btn1 {
+        width: 240px;
+    }
+
+    .icons-OS {
+        margin-top: 80px;
+    }
+
+
+    .text-bloc-page6 {
+        margin: 0;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    ul {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 767px) {
+    ul {
+        font-size: 24px;
+    }
+    .img1, .image2, .img5 {
+        width: 0;
+    }
+
+    .h4black {
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+
+    .niz {
+        padding-top: 20px;
+        padding-bottom: 20px; 
+    }
+    .page5-text {
+        margin: 0;
+        padding: 0;
+    }
+    .m-icon{
+        margin-top: 30px;
+    }
+    .content-page3-sel {
+        margin-top: 30px;
+    }
+    .name-of-site {
+        margin-top: 70px;
+    }
+    
+    .text-main {
+        padding-top: 0; 
+        border: none;
+    }
+
+    .border-text-page1 {
+        border: none;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 0;
+    }
+
+    .name-of-site, .text-main {
+        text-align: center;
+    }
+
+    .dowload-java1 {
+        display: none;
+    }
+
+    .arroy-l, .arroy-r {
+        display: none;
+    }
+
+
+    .bottom-selector {
+        display: none;
+    }
+
+    .top-selector {
+        display: none;
+    }
+
+    .icons-OS {
+        margin-top: 80px;
+    }
+
+    .items {
+        margin-top: 50px;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+
+
+    .name-of-site {
+        margin-top: 70px;
+    }
+
+    .img5 {
+        max-width: 75%;
+    }
+
+
+    .border-text-page1 {
+        border: none;
+        padding: 0;
+    }
+    .textPage1 {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .iner {
+        max-width: 100%;
+    }
+
+    .niz {
+        padding-top: 60px;
+    }
+
+    .img1, .image2 {
+        display: none;
+    }
+
+
+    .headline, .h3rad {
+        font-size: 34px;
+        line-height: 36px;
+    }
+
+    .border-text-page1 {
+        border: none;
+    }
+
+    .text-main, .text-item, li , .text-page5-wiath{
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    .text-main-page3, .sel-text, .icon-text, .text-page5-orange, .h4black {
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    .img1, .image2, .arroy-l, .arroy-r {
+        display: none;
+    }
+
+    .text-page4-black, .text-page4-red {
+        font-size: 24px;
+        line-height: 24px;
+        color: #000000;
+    }
+    
+    .text-page4-red {
+        font-size: 24px;
+        line-height: 24px;
+        color: #E8505C;
+    }
+
+    .dowload-java2 {
+        visibility: visible;
+    }
+
+
+    .dowload-java1 {
+        display: none;
+    }
+
+    .name-of-site, .text-main {
+        text-align: center;
+    }
+    .arroy-l, .arroy-r {
+        display: none;
+    }
+
+    .bottom-selector {
+        display: none;
+    }
+
+    .top-selector {
+        display: none;
+    }
+
+    .content-page3-sel {
+        margin-top: 40px;
+    }
+
+    .icons-OS {
+        margin-top: 80px;
+    }
+
+
+    .items {
+        margin-top: 50px;
+    }
+
+}
+
+
+
+@media (min-width: 992px) {
+    .container {
+        width: 910px;
+    }
+
+    .arroy-l, .arroy-r {
+        display: none;
+    }
+
+    .img1, .image2 {
+        max-width: 40%;
+    }
+
+    .img5 {
+        max-width: 75%;
+    }
+
+
+    .dowload-java1 {
+        visibility: hidden;
+    }
+
+    .bottom-selector {
+        display: none;
+    }
+
+    .top-selector {
+        display: none;
+    }
+
+    .text-page4-red {
+        color: #E8505C;
+    }
+
+    .border-text-page1 {
+        position: relative;
+        border: 0;
+        margin-left: auto;
+        margin-right: auto; 
+        width: 70%;
+    }
+
+
+    .items {
+        margin-top: 50px;
+    }
+}
+
+
+@media (min-width: 1000px) {
+    .bottom-selector, .top-selector {
+        display: block;
+        height: 180px;
+    }
+
+    .arroysm-t {
+        margin-top: 30px;
+    }
+
+    .text-page4-red {
+        color: #E8505C;
+    }
+
+    .border-text-page1 {
+        border: 0;
+        margin-left: auto;
+        margin-right: auto; 
+        flex: 100%;
+        max-width: 70%;
+    }
+
+    .text-bloc-page6 {
+        align-items: center;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    .top-selector, .bottom-selector {
+        display: none;
+    } 
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 100%;
+    }
+
+    .border-text-page1 {
+        border: 0;
+        margin-left: auto;
+        margin-right: auto; 
+    }
+
+    .img1, .image2 {
+        display: block; 
+        max-width: 50%;
+        width: 50%;
+    }
+
+    .img5 {
+        max-width: 45%;
+        width: 45%;
+    }
+
+    ul {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .niz {
+        padding-top: 130px;
+    }
+
+
+    .border-text-page1 {
+        margin-top: 70px;
+        margin-left: -30px;
+        padding: 50px 0 50px 37px;
+        border-left: 10px solid #F6DA59;
+    }
+
+    .headline, .h3rad {
+        font-size: 48px;
+        line-height: 56px;
+    }
+
+    .text-main, .text-item, li , .text-page5-wiath{
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .text-main-page3, .sel-text, .icon-text, .text-page5-orange, .h4black {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .text-page4-black, .text-page4-red {
+        font-size: 24px;
+        line-height: 28px;
+        color: #000000;
+    }
+
+
+    .name-of-site, .text-main {
+        text-align: left;
+    }
+
+
+    .arroy-l, .arroy-r {
+        display: block;
+    }
+
+
+    .text-page4-red {
+        color: #E8505C;
+    }
+
+    .text-main-page3 {
+        font-size: 28px;
+    }
+
+    .image2 {
+        margin-top: 0;
+    }
+
+    .text-bloc-page6 {
+        margin-bottom: 50px;
+    }
+
+}
+
+
+@media (min-width: 1201px) and (max-width: 1659px) {
+    .container {
+        max-width: 1430px;
+        width: 1235px;
+    }
+
+    .niz {
+        padding-top: 140px;
+    }
+
+    .img1, .image2 {
+        display: block; 
+        max-width: 60%;
+        width: 60%;
+    }
+
+    .img5 {
+        max-width: 60%;
+        width: 60%;
+    }
+
+
+    .text-page4-red {
+        color: #E8505C;
+    }
+
+
+    .border-text-page1, .text-bloc-page6 {
+        flex: 0, 0, 40%;
+        max-width: 40%;
+    }
+
+    .top-selector, .bottom-selector {
+        display: block;
+    }
+}
+
+@media (min-width: 1660px) {
+
+    .container {
+        max-width: 1560px;
+        width: 1460px;
+    }
+
+    .img1, .image2 {
+        max-width: 55%;
+        width: 55%;
+    }
+
+    .img5 {
+        max-width: 75%;
+        width: 90%;
+    }
+
+    ul {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+
+    .niz {
+        padding-top: 160px;
+    }
+
+
+
+    .text-page4-red {
+        color: #E8505C;
+    }
+
+    .border-text-page1, .text-bloc-page6 {
+        flex: 0, 0, 40%;
+        max-width: 40%;
+    }
+
+    .top-selector, .bottom-selector {
+        display: block;
+        height: 190px;  
+    }
+
+    .image2 {
+        margin-top: 0;
+    }
+
+    .text-bloc-page6 {
+        margin-bottom: 50px;
+    }
+}
+
+
+@media (min-width: 1720px) and (max-width: 1919px) {
+    .container {
+        max-width: 1660px;
+        width: 1380px;
+    }
+
+    .img1 {
+        display: block;
+        max-width: 1000px;
+    }
+
+    .image2 {
+        display: block;
+        max-width: 900px;
+        margin-left: 90px;
+        margin-top: 10px;
+    }
+    ul {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .dowload-java1{
+        visibility: visible;
+    }
+
+
+    .border-text-page1, .text-bloc-page6 {
+        flex: 0, 0, 40%;
+        max-width: 40%;
+        margin-bottom: 50px;
+    }
+
+    .top-selector, .bottom-selector {
+        display: block;
+        height: 200px;  
+    }
+
+}
+
+
+@media (min-width: 1920px) {
+    .container {
+        display: block;
+        max-width: 1920px;
+        width: 1460px;
+    }
+    ul {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .img1 {
+        max-width: 1000px;
+    }
+    .image2 {
+        max-width: 900px;
+        margin-left: 90px;
+    }
+
+    .dowload-java1{
+        display: block;
+        visibility: visible;
+    }
+    .dowload-java2 {
+        visibility: hidden;
+    }
+
+
+}
+
+
+/*---------------------- Списки ------------------------------ */
+
+.item {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+ul {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    color: #FFFFFF;
+    padding-inline-start: 20px;
+}
+
+li {
+    background: url(img/liImage.png) no-repeat left center;
+    padding-left: 40px;
+    margin: 20px;
+    list-style: none;
+}
+
+.ulSq {
+    list-style: none;
+    list-style-image: url(img/ulImageSquare.png);
+    color: #000000;
+    background: none;
+    margin: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
